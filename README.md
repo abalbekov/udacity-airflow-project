@@ -17,13 +17,13 @@ All operations are related to a DAG.
 Individual processing steps are then make up the DAG, with the DAG controlling which step follows which.
 Here is how this project DAG looks in Airflow web page :
 
-![alt text](https://github.com/abalbekov/dba_hist_sysmetric_viewer/blob/master/screenshot1.png "Oracle Sysmetric History Viewer")
+![alt text](https://github.com/abalbekov/udacity-airflow-project/blob/master/dags.PNG "a DAG in Airflow DAGs page")
 
 Airflow can show this DAG in either "Graph" view:
-![alt text](https://github.com/abalbekov/dba_hist_sysmetric_viewer/blob/master/screenshot1.png "Oracle Sysmetric History Viewer")
+![alt text](https://github.com/abalbekov/udacity-airflow-project/blob/master/dag-graph.PNG "a DAG Graph view in Airflow")
 
 Or in "Tree" view:
-![alt text](https://github.com/abalbekov/dba_hist_sysmetric_viewer/blob/master/screenshot1.png "Oracle Sysmetric History Viewer")
+![alt text](https://github.com/abalbekov/udacity-airflow-project/blob/master/dag-tree.PNG "a DAG Tree view in Airflow")
 
 
 
