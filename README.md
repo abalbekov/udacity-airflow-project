@@ -1,11 +1,11 @@
 ## udacity-airflow-project
-This is Airflow Data Pipelines project assignment on Udacity Data Engineering Nanodegree program.
+This is Airflow Data Pipelines project assignment in Udacity Data Engineering Nanodegree program.
 
 The project uses Airflow to define and schedule interdependent set of Python processing modules which take set of json files from public Udacity AWS S3 buckets, load them into AWS Redshift staging tables, extract and populate dimension tables in a star schema and then run verification data quality checks.
 
 The Airflow role in this project is 3-fold:
 - As a scheduling and orchestration tool
-- As a programming framework in a sence that Python code that you write does need to confirm to Airflow conventions and rules
+- As a programming framework in a sense that Python code that you write does need to confirm to Airflow conventions and rules
 - As an automatic workflow documentation and diagramming tool. It builds workflow diagrams showing dependencies between processing steps and it also shows execution history in a web interface.
 
 The Airflow runs outside of AWS. 
